@@ -6,7 +6,8 @@ public class Account {
 		String msg = "name=" + name + ", balance=$" + balance;
 	return msg; 
 	} 
-	// Instance variable, only available inside this class. 
+	// Instance variable, only available inside this class.
+	// New Comment for balance: This variable stores the current account balance.
 	private double balance; 
 	private String name; 
 	public String getName() { 
